@@ -8,13 +8,7 @@
 
 #import "GBDeviceInfo_Common.h"
 #import "GBDeviceInfo_Subclass.h"
-
-#if TARGET_OS_IPHONE
 #import "GBDeviceInfo_iOS.h"
-#else
-#import "GBDeviceInfo_OSX.h"
-#endif
-
 #import <stdlib.h>
 #import <stdio.h>
 #import <sys/types.h>
